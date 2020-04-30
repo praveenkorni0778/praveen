@@ -1,0 +1,11 @@
+.classname{
+animation-name: anim;
+animation-duration: 10s;
+}
+@keyframes anim{
+0%{}
+10{}
+30%{}
+100%{}
+
+}
