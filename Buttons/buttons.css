@@ -1,0 +1,99 @@
+/*Button default properties*/
+.btn {
+  background-color: white; /* Green */
+  border: 2px solid black;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+/* Success button */
+.btn-success {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+.btn-success:hover {
+  animation-name: btn-success;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes btn-success {
+  100% {
+    background-color: rgb(24, 116, 24);
+  }
+}
+
+/* Danger Button */
+.btn-danger {
+  background-color: #f44336;
+  border-color: #f44336;
+}
+.btn-danger:hover {
+  animation-name: btn-danger;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes btn-danger {
+  100% {
+    background-color: rgb(209, 34, 34);
+  }
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #3688f4;
+  border-color: #3688f4;
+}
+.btn-primary:hover {
+  animation-name: btn-primary;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes btn-primary {
+  100% {
+    background-color: rgb(28, 105, 156);
+  }
+}
+
+/* Default Button */
+.btn-default {
+  background-color: rgb(156, 151, 151);
+  border-color: rgb(156, 151, 151);
+}
+.btn-default:hover {
+  color: black;
+}
+
+/* Ghost Button */
+.btn-ghost {
+  color: black;
+}
+
+/* Shadowed elements */
+.shadow {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Shadow on hover */
+.hover-shadow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Unshodow on hover */
+.hover-shadow-inverse:hover {
+  box-shadow: none;
+}
+
+/* Disabled */
+.isdisabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
