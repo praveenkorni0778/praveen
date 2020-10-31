@@ -23,7 +23,8 @@
   height: 100%;
 }
 
-.navbar a {
+.navbar a,
+.nav-link {
   text-decoration: none;
   display: block;
   color: black;
